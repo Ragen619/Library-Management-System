@@ -38,7 +38,7 @@ def update():
     record_id = delete_box.get()
     c.execute(""" UPDATE books SET
          userid = :id,
-         title= :tit,
+         title = :tit,
          author = :auth,
          edition = :edi,
          price = :pri
