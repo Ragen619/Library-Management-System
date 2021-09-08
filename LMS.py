@@ -12,7 +12,7 @@ root.resizable(0, 0)
 
 #Databases
 # Create a databases or connect to one
-conn = sqlite3.connect('LBS.db')
+conn =  sqlite3.connect('LBS.db')
 
 # Create cursor
 c = conn.cursor()
